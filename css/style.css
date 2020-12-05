@@ -1,0 +1,94 @@
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+.navbar .nav-link:hover {
+  color: #f0ad4e !important;
+}
+body {
+  overflow-x: hidden;
+}
+.navbar .nav-item.active {
+  border-left: #444 solid 3px;
+}
+.carousel-item {
+  height: 450px;
+}
+.carousel-image-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url("/img/image1.jpg");
+  background-size: cover;
+}
+.carousel-image-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url("/img/image2.jpg");
+  background-size: cover;
+}
+.carousel-image-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url("/img/image3.jpg");
+  background-size: cover;
+}
+
+#home-heading {
+  position: relative;
+  background-image: url("/img/image4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  color: #fff;
+}
+#home-heading-2 {
+  position: relative;
+  background-image: url("/img/image5.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  color: #fff;
+}
+#project .card img {
+  height: 15rem !important;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#main-footer {
+  color: #fff;
+  background: #000;
+}
+
+#page-header {
+  height: 200px;
+  color: #fff;
+  background-image: url("/img/image1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.about-img {
+  margin-top: -50px;
+}
+#faq .card {
+  border: #444;
+}
+#faq a {
+  color: #fff;
+}
+#faq .card-header,
+#faq .card-body {
+  background: #333;
+}
+#team img {
+  height: 5rem;
+  width: 5rem;
+}
